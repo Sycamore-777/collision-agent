@@ -1,0 +1,14 @@
+{
+  "message_id": "CDM-CRITICAL-001",
+  "conjunction_id": "CONJ-CRITICAL-001",
+  "primary_object_name": "CREW-SUPPORT-SAT",
+  "secondary_object_name": "DEBRIS-CRIT",
+  "primary_norad_id": "61001",
+  "secondary_norad_id": "61002",
+  "tca_utc": "2026-04-24T16:10:00Z",
+  "miss_distance_m": 320,
+  "relative_speed_mps": 14800,
+  "collision_probability": 0.0014,
+  "reference_frame": "RTN",
+  "covariance_present": true
+}

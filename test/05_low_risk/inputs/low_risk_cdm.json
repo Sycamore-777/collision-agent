@@ -1,0 +1,14 @@
+{
+  "message_id": "CDM-LOW-001",
+  "conjunction_id": "CONJ-LOW-001",
+  "primary_object_name": "TEST-SAT-LOW",
+  "secondary_object_name": "OBJECT-LOW",
+  "primary_norad_id": "62001",
+  "secondary_norad_id": "62002",
+  "tca_utc": "2026-04-25T02:00:00Z",
+  "miss_distance_m": 12000,
+  "relative_speed_mps": 9800,
+  "collision_probability": 0.0000004,
+  "reference_frame": "RTN",
+  "covariance_present": true
+}

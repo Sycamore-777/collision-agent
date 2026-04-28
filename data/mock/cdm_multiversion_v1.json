@@ -1,0 +1,15 @@
+{
+  "message_id": "CDM-20260422-002-V1",
+  "conjunction_id": "CONJ-20260422-002",
+  "primary_object_name": "TEST-SAT-B",
+  "secondary_object_name": "COSMOS-DEB",
+  "primary_norad_id": "50001",
+  "secondary_norad_id": "50002",
+  "tca_utc": "2026-04-24T08:30:00Z",
+  "miss_distance_m": 1420.0,
+  "relative_speed_mps": 12880.0,
+  "collision_probability": 0.00003,
+  "reference_frame": "RTN",
+  "covariance_present": false
+}
+

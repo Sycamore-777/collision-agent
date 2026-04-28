@@ -1,0 +1,15 @@
+{
+  "id": "09_fallback_text",
+  "title": "低质量文本输入，验证 fallback",
+  "initial_question": "请尽量从低质量文本中提取会合风险，并说明解析是否降级。",
+  "files": ["inputs/low_quality.note"],
+  "follow_up_questions": [
+    "解析为什么会降级？",
+    "哪些字段置信度需要人工确认？"
+  ],
+  "expected": [
+    "parser_name 为 mock_parser",
+    "confidence_summary.fallback_used 为 true",
+    "解析文档中记录 mock fallback 说明"
+  ]
+}

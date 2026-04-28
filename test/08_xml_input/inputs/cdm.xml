@@ -1,0 +1,14 @@
+<cdm>
+  <message_id>CDM-XML-001</message_id>
+  <conjunction_id>CONJ-XML-001</conjunction_id>
+  <primary_object_name>XML-SAT-A</primary_object_name>
+  <secondary_object_name>XML-OBJECT-B</secondary_object_name>
+  <primary_norad_id>65001</primary_norad_id>
+  <secondary_norad_id>65002</secondary_norad_id>
+  <tca_utc>2026-04-25T18:45:00Z</tca_utc>
+  <miss_distance_m>980</miss_distance_m>
+  <relative_speed_mps>12800</relative_speed_mps>
+  <collision_probability>0.00008</collision_probability>
+  <reference_frame>RTN</reference_frame>
+  <covariance_present>true</covariance_present>
+</cdm>

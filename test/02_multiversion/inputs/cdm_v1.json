@@ -1,0 +1,14 @@
+{
+  "message_id": "CDM-20260422-MV-001",
+  "conjunction_id": "CONJ-20260422-MV",
+  "primary_object_name": "TEST-SAT-A",
+  "secondary_object_name": "DEBRIS-100",
+  "primary_norad_id": "43210",
+  "secondary_norad_id": "50001",
+  "tca_utc": "2026-04-23T08:00:00Z",
+  "miss_distance_m": 1800,
+  "relative_speed_mps": 12100,
+  "collision_probability": 0.00003,
+  "reference_frame": "RTN",
+  "covariance_present": true
+}

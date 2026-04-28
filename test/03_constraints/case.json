@@ -1,0 +1,15 @@
+{
+  "id": "03_constraints",
+  "title": "CDM + 任务约束文件",
+  "initial_question": "请按任务约束检查这次会合，重点说明是否违反阈值。",
+  "files": ["inputs/cdm_constrained.json", "inputs/mission_constraints.json"],
+  "follow_up_questions": [
+    "违反了哪些约束？",
+    "给我一段面向任务负责人的简短说明。"
+  ],
+  "expected": [
+    "识别约束冲突",
+    "needs_manual_review 为 true",
+    "追问能说明冲突原因"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "05_low_risk",
+  "title": "低风险事件",
+  "initial_question": "请确认这次事件是否只需要常规监视，并说明依据。",
+  "files": ["inputs/low_risk_cdm.json"],
+  "follow_up_questions": [
+    "是否需要人工复核？",
+    "给我一个一句话结论。"
+  ],
+  "expected": [
+    "risk_level 为 low",
+    "一般不触发人工复核",
+    "建议为常规监视"
+  ]
+}

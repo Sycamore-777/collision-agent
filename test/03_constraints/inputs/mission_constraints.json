@@ -1,0 +1,5 @@
+{
+  "max_collision_probability": 0.0001,
+  "max_miss_distance_m": 1000,
+  "forbidden_risk_levels": ["critical"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "08_xml_input",
+  "title": "XML 输入",
+  "initial_question": "请解析 XML 会合消息，给出风险等级和人工复核建议。",
+  "files": ["inputs/cdm.xml"],
+  "follow_up_questions": [
+    "XML 中的 TCA 是什么时候？",
+    "请解释碰撞概率对风险等级的影响。"
+  ],
+  "expected": [
+    "XML 被解析为结构化 payload",
+    "提取一个事件",
+    "报告包含 TCA 和碰撞概率"
+  ]
+}

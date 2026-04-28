@@ -1,0 +1,15 @@
+{
+  "id": "06_missing_fields",
+  "title": "缺失关键字段，触发人工复核",
+  "initial_question": "请指出这份会合消息缺哪些关键字段，并说明为什么不能直接给出处置结论。",
+  "files": ["inputs/missing_fields.json"],
+  "follow_up_questions": [
+    "缺失字段会影响哪些判断？",
+    "下一步应该补充什么数据？"
+  ],
+  "expected": [
+    "needs_manual_review 为 true",
+    "大模型研判说明缺失关键字段",
+    "追问能说明缺失字段影响"
+  ]
+}

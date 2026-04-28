@@ -1,0 +1,12 @@
+{
+  "message_id": "CDM-MISSING-001",
+  "conjunction_id": "CONJ-MISSING-001",
+  "primary_object_name": "TEST-SAT-MISSING",
+  "secondary_object_name": "OBJECT-MISSING",
+  "primary_norad_id": "63001",
+  "secondary_norad_id": "63002",
+  "miss_distance_m": 900,
+  "relative_speed_mps": 10100,
+  "reference_frame": "RTN",
+  "covariance_present": false
+}

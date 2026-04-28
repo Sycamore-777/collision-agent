@@ -1,0 +1,15 @@
+{
+  "message_id": "CDM-20260422-001",
+  "conjunction_id": "CONJ-20260422-001",
+  "primary_object_name": "FENGYUN-1C-DEB",
+  "secondary_object_name": "TEST-SAT-A",
+  "primary_norad_id": "30671",
+  "secondary_norad_id": "43210",
+  "tca_utc": "2026-04-23T11:45:00Z",
+  "miss_distance_m": 842.5,
+  "relative_speed_mps": 14321.9,
+  "collision_probability": 0.00018,
+  "reference_frame": "RTN",
+  "covariance_present": true
+}
+

@@ -1,0 +1,15 @@
+{
+  "id": "04_critical_risk",
+  "title": "高风险/临界风险事件",
+  "initial_question": "请按最保守口径分析这次临界会合，并给出需要立即执行的动作。",
+  "files": ["inputs/critical_cdm.json"],
+  "follow_up_questions": [
+    "为什么判为 critical？",
+    "请列出前三个处置优先级。"
+  ],
+  "expected": [
+    "risk_level 为 critical",
+    "建议包含人工协同或规避评估",
+    "报告中保留关键字段证据"
+  ]
+}

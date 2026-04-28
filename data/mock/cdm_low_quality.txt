@@ -1,0 +1,9 @@
+message_id: LOW-QUALITY-001
+conjunction_id: LOW-QUALITY-001
+primary_object_name: UNKNOWN-SAT
+secondary_object_name: UNKNOWN-DEBRIS
+primary_norad_id: 70001
+secondary_norad_id: 70002
+miss_distance_m: 12000
+collision_probability: 0.000001
+

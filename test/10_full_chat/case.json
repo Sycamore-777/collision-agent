@@ -1,0 +1,17 @@
+{
+  "id": "10_full_chat",
+  "title": "完整连续问答",
+  "initial_question": "请完成一次完整会合风险研判，输出风险等级、人工复核原因、证据链和汇报摘要。",
+  "files": ["inputs/cdm_chat.json", "inputs/mission_constraints.json"],
+  "follow_up_questions": [
+    "为什么需要复核？",
+    "证据来自哪里？",
+    "给我一段可以发给领导的汇报摘要。"
+  ],
+  "expected": [
+    "任务问答页保留初始需求和后续追问",
+    "每次追问都有助手回复",
+    "llm-calls 中存在 chat_reply 记录",
+    "证据链页可查看字段出处"
+  ]
+}

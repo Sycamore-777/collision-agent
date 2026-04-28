@@ -1,0 +1,14 @@
+{
+  "message_id": "CDM-CONSTRAINT-001",
+  "conjunction_id": "CONJ-CONSTRAINT-001",
+  "primary_object_name": "MISSION-SAT",
+  "secondary_object_name": "OBJECT-X",
+  "primary_norad_id": "60001",
+  "secondary_norad_id": "60002",
+  "tca_utc": "2026-04-24T03:20:00Z",
+  "miss_distance_m": 650,
+  "relative_speed_mps": 13500,
+  "collision_probability": 0.00016,
+  "reference_frame": "RTN",
+  "covariance_present": true
+}

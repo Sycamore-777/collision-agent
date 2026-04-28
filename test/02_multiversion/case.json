@@ -1,0 +1,18 @@
+{
+  "id": "02_multiversion",
+  "title": "多版本 CDM + 事件聚合",
+  "initial_question": "请比较这两版会合消息，使用最新版本给出处置建议，并说明风险是否升级。",
+  "files": [
+    "inputs/cdm_v1.json",
+    "inputs/cdm_v2.json"
+  ],
+  "follow_up_questions": [
+    "两个版本聚合成一个事件的依据是什么？",
+    "请说明最新版本中风险变化的原因。"
+  ],
+  "expected": [
+    "事件线程只保留 1 个最新事件视图",
+    "event_threads 包含两个版本的事件 ID",
+    "追问可以解释聚合依据"
+  ]
+}

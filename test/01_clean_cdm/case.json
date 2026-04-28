@@ -1,0 +1,20 @@
+{
+  "id": "01_clean_cdm",
+  "title": "干净 CDM JSON + 常规风险评估问答",
+  "initial_question": "请评估这次会合风险，说明是否需要人工复核，并给出值班人员可执行的处置建议。",
+  "files": ["inputs/cdm_clean.json"],
+  "advanced": {
+    "enable_external_context": true,
+    "enable_llm_suggestion": true
+  },
+  "follow_up_questions": [
+    "为什么这个事件不是低风险？",
+    "证据链里哪些字段最关键？"
+  ],
+  "expected": [
+    "任务成功创建",
+    "提取 1 个会合事件",
+    "报告包含用户需求和风险等级",
+    "追问可以得到中文回复"
+  ]
+}

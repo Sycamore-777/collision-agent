@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: collision-agent
+Version: 0.1.0
+Summary: Collision warning Data Agent with FastAPI backend and React frontend.
+Author: OpenAI Codex
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: alembic<2.0.0,>=1.14.0
+Requires-Dist: fastapi<1.0.0,>=0.115.0
+Requires-Dist: httpx<1.0.0,>=0.28.0
+Requires-Dist: jinja2<4.0.0,>=3.1.0
+Requires-Dist: pydantic<3.0.0,>=2.10.0
+Requires-Dist: pydantic-settings<3.0.0,>=2.6.0
+Requires-Dist: python-multipart<1.0.0,>=0.0.20
+Requires-Dist: sqlalchemy<3.0.0,>=2.0.36
+Requires-Dist: uvicorn<1.0.0,>=0.34.0
+Provides-Extra: dev
+Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "dev"
+Requires-Dist: pytest-cov<7.0.0,>=6.0.0; extra == "dev"

@@ -1,0 +1,15 @@
+{
+  "id": "07_kvn_input",
+  "title": "KVN 文本输入",
+  "initial_question": "请解析这份 KVN 会合消息并给出风险等级。",
+  "files": ["inputs/cdm.kvn"],
+  "follow_up_questions": [
+    "KVN 中哪些字段被用作证据？",
+    "请输出一段值班日志格式的说明。"
+  ],
+  "expected": [
+    "native_structured_parser 成功解析",
+    "提取一个事件",
+    "证据链包含 KVN 字段"
+  ]
+}

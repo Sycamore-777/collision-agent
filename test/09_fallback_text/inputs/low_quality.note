@@ -1,0 +1,13 @@
+message_id: CDM-FALLBACK-001
+conjunction_id: CONJ-FALLBACK-001
+primary_object_name: FALLBACK-SAT
+secondary_object_name: FALLBACK-DEBRIS
+primary_norad_id: 66001
+secondary_norad_id: 66002
+tca_utc: 2026-04-26T04:15:00Z
+miss_distance_m: 870
+relative_speed_mps: 11600
+collision_probability: 0.00012
+reference_frame: RTN
+covariance_present: false
+raw_comment: OCR quality is low and spacing is inconsistent.

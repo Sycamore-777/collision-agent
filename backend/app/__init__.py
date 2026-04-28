@@ -1,0 +1,2 @@
+"""Collision Agent backend package."""
+

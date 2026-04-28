@@ -1,0 +1,12 @@
+message_id = CDM-KVN-001
+conjunction_id = CONJ-KVN-001
+primary_object_name = KVN-SAT-A
+secondary_object_name = KVN-DEBRIS-B
+primary_norad_id = 64001
+secondary_norad_id = 64002
+tca_utc = 2026-04-25T10:30:00Z
+miss_distance_m = 1400
+relative_speed_mps = 11300
+collision_probability = 0.00004
+reference_frame = RTN
+covariance_present = true

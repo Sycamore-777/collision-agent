@@ -1,0 +1,23 @@
+{
+  "30671": {
+    "OBJECT_NAME": "FENGYUN-1C-DEB",
+    "OBJECT_TYPE": "DEBRIS",
+    "MEAN_MOTION": 14.27
+  },
+  "43210": {
+    "OBJECT_NAME": "TEST-SAT-A",
+    "OBJECT_TYPE": "PAYLOAD",
+    "MEAN_MOTION": 15.11
+  },
+  "50001": {
+    "OBJECT_NAME": "TEST-SAT-B",
+    "OBJECT_TYPE": "PAYLOAD",
+    "MEAN_MOTION": 14.98
+  },
+  "50002": {
+    "OBJECT_NAME": "COSMOS-DEB",
+    "OBJECT_TYPE": "DEBRIS",
+    "MEAN_MOTION": 14.61
+  }
+}
+
